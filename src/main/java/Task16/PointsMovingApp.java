@@ -3,13 +3,13 @@ package Task16;
 import javax.swing.*;
 import java.awt.*;
 
-public class PointsMovingDemo extends JFrame {
+public class PointsMovingApp extends JFrame {
     JPanel panel = new JPanel();
     Graphics g;
     JButton btn = new JButton("Place point");
     int i;
 
-    public PointsMovingDemo() {
+    public PointsMovingApp() {
         setBounds(100, 200, 600, 600);
         Container contentPane = getContentPane();
         contentPane.setLayout(null);
@@ -26,7 +26,7 @@ public class PointsMovingDemo extends JFrame {
     }
 
     public static void main(String[] args) {
-        PointsMovingDemo frame = new PointsMovingDemo();
+        PointsMovingApp frame = new PointsMovingApp();
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setVisible(true);
     }
