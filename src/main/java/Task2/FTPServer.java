@@ -11,7 +11,6 @@ import java.util.Iterator;
 import java.util.Set;
 
 public class FTPServer {
-
     private int port;
     private String ip;
     private ServerSocketChannel serverSocketChannel;
